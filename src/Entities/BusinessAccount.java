@@ -30,4 +30,12 @@ public class BusinessAccount extends Account {
             balance += amount - 10.0;
         }
     }
+
+     // o conpilador vai procurar na super classe esse metodo pra ver se ele existe não
+     // está sobrepondo o metodo la da super classe
+     @Override
+     public void withdraw (double amount){
+        super.withdraw(amount);
+        balance -= 2.0;
+     }
 }
