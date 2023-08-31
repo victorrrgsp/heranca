@@ -1,7 +1,6 @@
 package Application;
 
 import Entities.Account;
-import Entities.BusinessAccount;
 import Entities.SavingsAccount;
 
 public class Program {
